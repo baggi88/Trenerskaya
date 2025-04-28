@@ -1,0 +1,74 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.a_
+*.dex
+*.class
+
+# Files for the ART/Dalvik VM
+*.map
+
+# Text files
+*.txt
+
+# Xcode files
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+
+# Android Studio / IntelliJ IDEA files
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.hprof
+
+# Secrets
+*.keystore
+*.jks
+
+# Generated files
+generated/
+
+# Misc Gradle files
+.gradletasknamecache
+.gradle-scan/
+
+# Gradle Wrapper distribution
+/wrapper/dists/
+
+# KSP generated files
+**/build/generated/ksp/
+
+# Google services file
+# If you use Google services, uncomment the next line
+# google-services.json
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Crashlytics plugin
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+crashlytics-manifest.xml
+
+# Mac files
+.DS_Store
+
+# Editor-based settings files
+*.swp
+*~
+.vscode/

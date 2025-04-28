@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Purple theme colors for night mode -->
+    <color name="purple_primary">#FFD0BCFF</color>
+    <color name="purple_secondary">#FFCCC2DC</color>
+    <color name="purple_tertiary">#FFEFB8C8</color>
+    <color name="purple_background">#FF1C1B1F</color>
+    <color name="purple_surface">#FF1C1B1F</color>
+
+    <!-- Дополнительные цвета для ночной темы -->
+    <color name="purple_500">#FFD0BCFF</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!-- Основные цвета приложения для ночной темы -->
+    <color name="primary">@color/purple_500</color>
+    <color name="primary_light">@color/purple_light</color>
+
+    <!-- Фоновые цвета -->
+    <color name="background">@color/surface_dark</color>
+</resources> 

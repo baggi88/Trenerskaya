@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.trenerskaya_23.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_addClientFragment"
+            app:destination="@id/addClientFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_addTrainingFragment"
+            app:destination="@id/addTrainingFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addClientFragment"
+        android:name="com.example.trenerskaya_23.ui.client.AddClientFragment"
+        android:label="@string/add_client"
+        tools:layout="@layout/fragment_add_client" />
+
+    <fragment
+        android:id="@+id/trainingListFragment"
+        android:name="com.example.trenerskaya_23.ui.training.fragment.TrainingListFragment"
+        android:label="Тренировки"
+        tools:layout="@layout/fragment_training_list">
+        <action
+            android:id="@+id/action_trainingListFragment_to_addTrainingFragment"
+            app:destination="@id/addTrainingFragment" />
+        <action
+            android:id="@+id/action_trainingListFragment_to_viewTrainingFragment"
+            app:destination="@id/viewTrainingFragment">
+            <argument
+                android:name="trainingId"
+                app:argType="long" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/addTrainingFragment"
+        android:name="com.example.trenerskaya_23.ui.training.fragment.AddTrainingFragment"
+        android:label="Добавить тренировку"
+        tools:layout="@layout/fragment_add_training" />
+
+    <fragment
+        android:id="@+id/viewTrainingFragment"
+        android:name="com.example.trenerskaya_23.ui.training.fragment.ViewTrainingFragment"
+        android:label="Просмотр тренировки"
+        tools:layout="@layout/fragment_view_training">
+        <argument
+            android:name="trainingId"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.trenerskaya_23.ui.settings.fragment.SettingsFragment"
+        android:label="Настройки"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.example.trenerskaya_23.ui.calendar.CalendarFragment"
+        android:label="@string/title_calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/calculatorFragment"
+        android:name="com.example.trenerskaya_23.ui.calculator.CalculatorFragment"
+        android:label="@string/title_calculator"
+        tools:layout="@layout/fragment_calculator" />
+
+</navigation> 

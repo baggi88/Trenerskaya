@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Фиолетовая тема -->
+    <color name="purple_darkest">#0c080d</color>
+    <color name="purple_dark">#1f1823</color>
+    <color name="purple_medium">#382b3f</color>
+    <color name="purple_light">#52425c</color>
+    <color name="purple_lightest">#7a6284</color>
+
+    <!-- Дополнительные фиолетовые -->
+    <color name="purple_surface_1">#0c080d</color>
+    <color name="purple_surface_2">#1f1823</color>
+    <color name="purple_surface_3">#382b3f</color>
+    <color name="purple_surface_4">#52425c</color>
+    <color name="purple_surface_5">#7a6284</color>
+
+    <!-- Синяя тема -->
+    <color name="blue_darkest">#0d2230</color>
+    <color name="blue_dark">#1f3b4b</color>
+    <color name="blue_medium">#3d5b6e</color>
+    <color name="blue_light">#648598</color>
+    <color name="blue_lightest">#ffffff</color>
+
+    <!-- Дополнительные синие -->
+    <color name="blue_surface_1">#0d2230</color>
+    <color name="blue_surface_2">#1f3b4b</color>
+    <color name="blue_surface_3">#3d5b6e</color>
+    <color name="blue_surface_4">#648598</color>
+    <color name="blue_surface_5">#ffffff</color>
+
+    <!-- Общие цвета -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="text_primary_light">#FFFFFF</color>
+    <color name="text_secondary_light">#CCCCCC</color>
+    <color name="text_primary_dark">#000000</color>
+    <color name="text_secondary_dark">#666666</color>
+    
+    <!-- Цвета текста -->
+    <color name="text_primary">@color/text_primary_light</color>
+    <color name="text_secondary">@color/text_secondary_light</color>
+    
+    <!-- Акцентные цвета -->
+    <color name="accent_purple">#7a6284</color>
+    <color name="accent_blue">#648598</color>
+    
+    <!-- Цвета состояний -->
+    <color name="error">#FF5252</color>
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FFC107</color>
+    
+    <!-- Цвета поверхностей -->
+    <color name="surface_light">#FFFFFF</color>
+    <color name="surface_dark">#121212</color>
+    <color name="surface_variant_light">#F5F5F5</color>
+    <color name="surface_variant_dark">#2D2D2D</color>
+
+    <color name="surface">#FFFFFFFF</color>
+    
+    <!-- Purple theme colors -->
+    <color name="purple_primary">#FF6650a4</color>
+    <color name="purple_secondary">#FF625b71</color>
+    <color name="purple_tertiary">#FF7D5260</color>
+    <color name="purple_background">#FFFFFFFF</color>
+    <color name="purple_surface">#FFFFFFFF</color>
+
+    <!-- Дополнительные цвета для темы -->
+    <color name="purple_500">#FF6650a4</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!-- Основные цвета приложения -->
+    <color name="primary">@color/purple_500</color>
+    <color name="primary_light">@color/purple_light</color>
+
+    <!-- Фоновые цвета -->
+    <color name="background">@color/surface_light</color>
+</resources>
